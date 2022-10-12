@@ -1,0 +1,64 @@
+ERROR - 2022-09-22 23:24:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#5 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#8 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#9 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#10 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\sholi\wp2\perpustakaan\spark(98): CodeIgniter\CLI\Console->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#4 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#8 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\sholi\wp2\perpustakaan\spark(98): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2022-09-22 23:25:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#5 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#8 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#9 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#10 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\sholi\wp2\perpustakaan\spark(98): CodeIgniter\CLI\Console->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#4 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#8 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\sholi\wp2\perpustakaan\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\sholi\wp2\perpustakaan\spark(98): CodeIgniter\CLI\Console->run()
+#12 {main}
