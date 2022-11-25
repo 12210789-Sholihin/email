@@ -45,6 +45,10 @@ class ComposerStaticInit496347161f15f4dee3d6c02aec4e9d0b
         array (
             'CodeIgniter\\' => 12,
         ),
+        'A' => 
+        array (
+            'Agoenxz21\\Datatables\\' => 21,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -87,6 +91,10 @@ class ComposerStaticInit496347161f15f4dee3d6c02aec4e9d0b
         'CodeIgniter\\' => 
         array (
             0 => __DIR__ . '/..' . '/codeigniter4/framework/system',
+        ),
+        'Agoenxz21\\Datatables\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/agoenxz21/datatables/src',
         ),
     );
 

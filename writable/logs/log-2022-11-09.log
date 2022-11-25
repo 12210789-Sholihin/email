@@ -1,0 +1,22 @@
+ERROR - 2022-11-09 05:18:45 --> mysqli_sql_exception: Unknown table 'bengkel.karyawan' in C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Database\Forge.php(600): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\app\Database\Migrations\2022-10-13-091909_Karyawan.php(33): CodeIgniter\Database\Forge->dropTable()
+#5 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(868): App\Database\Migrations\Karyawan->down()
+#6 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(298): CodeIgniter\Database\MigrationRunner->migrate()
+#7 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress()
+#8 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\MigrateRollback->run()
+#9 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(112): CodeIgniter\CLI\Commands->run()
+#10 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call()
+#11 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\MigrateRefresh->run()
+#12 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run()
+#13 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index()
+#14 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap()
+#15 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#16 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest()
+#17 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#18 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\spark(98): CodeIgniter\CLI\Console->run()
+#19 {main}

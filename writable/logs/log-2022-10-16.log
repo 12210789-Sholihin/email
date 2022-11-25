@@ -1,0 +1,132 @@
+ERROR - 2022-10-16 05:02:21 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at "localhost" port 25, verify your "SMTP" and "smtp_port" setting in php.ini or use ini_set() in C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php:1730
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\Users\\user\\D...', 1730)
+#1 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1730): mail('12210843@bsi.ac...', '=?UTF-8?Q?Testi...', 'This is a multi...', 'Date: Sun, 16 O...', '-f marsianusyhz...')
+#2 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1662): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\tests\unit\EmailTest.php(19): CodeIgniter\Email\Email->send()
+#5 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(1548): EmailTest->testKirimEmail()
+#6 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(1154): PHPUnit\Framework\TestCase->runTest()
+#7 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#8 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(904): PHPUnit\Framework\TestResult->run(Object(EmailTest))
+#9 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\Command.php(144): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#14 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\Command.php(97): PHPUnit\TextUI\Command->run(Array, true)
+#15 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\phpunit(98): PHPUnit\TextUI\Command::main()
+#16 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\bin\phpunit(123): include('C:\\Users\\user\\D...')
+#17 {main}
+ERROR - 2022-10-16 05:02:21 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2022-10-16 05:02:21 --> 
+ERROR - 2022-10-16 05:09:57 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at "localhost" port 25, verify your "SMTP" and "smtp_port" setting in php.ini or use ini_set() in C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php:1730
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\Users\\user\\D...', 1730)
+#1 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1730): mail('12210843@bsi.ac...', '=?UTF-8?Q?Testi...', 'This is a multi...', 'Date: Sun, 16 O...', '-f marsianusyhz...')
+#2 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1662): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\tests\unit\EmailTest.php(19): CodeIgniter\Email\Email->send()
+#5 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(1548): EmailTest->testKirimEmail()
+#6 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(1154): PHPUnit\Framework\TestCase->runTest()
+#7 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#8 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(904): PHPUnit\Framework\TestResult->run(Object(EmailTest))
+#9 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\Command.php(144): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#14 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\Command.php(97): PHPUnit\TextUI\Command->run(Array, true)
+#15 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\phpunit(98): PHPUnit\TextUI\Command::main()
+#16 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\bin\phpunit(123): include('C:\\Users\\user\\D...')
+#17 {main}
+ERROR - 2022-10-16 05:09:57 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2022-10-16 05:09:57 --> 
+ERROR - 2022-10-16 05:14:39 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at "localhost" port 25, verify your "SMTP" and "smtp_port" setting in php.ini or use ini_set() in C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php:1730
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\Users\\user\\D...', 1730)
+#1 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1730): mail('12210843@bsi.ac...', '=?UTF-8?Q?Testi...', 'This is a multi...', 'Date: Sun, 16 O...', '-f marsianusyhz...')
+#2 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1662): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\tests\unit\EmailTest.php(19): CodeIgniter\Email\Email->send()
+#5 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(1548): EmailTest->testKirimEmail()
+#6 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(1154): PHPUnit\Framework\TestCase->runTest()
+#7 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#8 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(904): PHPUnit\Framework\TestResult->run(Object(EmailTest))
+#9 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\Command.php(144): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#14 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\Command.php(97): PHPUnit\TextUI\Command->run(Array, true)
+#15 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\phpunit(98): PHPUnit\TextUI\Command::main()
+#16 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\bin\phpunit(123): include('C:\\Users\\user\\D...')
+#17 {main}
+ERROR - 2022-10-16 05:14:39 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2022-10-16 05:14:39 --> 
+ERROR - 2022-10-16 05:15:29 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at "localhost" port 25, verify your "SMTP" and "smtp_port" setting in php.ini or use ini_set() in C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php:1730
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\Users\\user\\D...', 1730)
+#1 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1730): mail('12210843@bsi.ac...', '=?UTF-8?Q?Testi...', 'This is a multi...', 'Date: Sun, 16 O...', '-f marsianusyhz...')
+#2 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1662): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\tests\unit\EmailTest.php(19): CodeIgniter\Email\Email->send()
+#5 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(1548): EmailTest->testKirimEmail()
+#6 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(1154): PHPUnit\Framework\TestCase->runTest()
+#7 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#8 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(904): PHPUnit\Framework\TestResult->run(Object(EmailTest))
+#9 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\Command.php(144): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#14 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\Command.php(97): PHPUnit\TextUI\Command->run(Array, true)
+#15 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\phpunit(98): PHPUnit\TextUI\Command::main()
+#16 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\bin\phpunit(123): include('C:\\Users\\user\\D...')
+#17 {main}
+ERROR - 2022-10-16 05:15:29 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2022-10-16 05:15:29 --> 
+ERROR - 2022-10-16 05:16:50 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at "localhost" port 25, verify your "SMTP" and "smtp_port" setting in php.ini or use ini_set() in C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php:1730
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\Users\\user\\D...', 1730)
+#1 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1730): mail('12210843@bsi.ac...', '=?UTF-8?Q?Testi...', 'This is a multi...', 'Date: Sun, 16 O...', '-f marsianusyhz...')
+#2 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1662): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\tests\unit\EmailTest.php(19): CodeIgniter\Email\Email->send()
+#5 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(1548): EmailTest->testKirimEmail()
+#6 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(1154): PHPUnit\Framework\TestCase->runTest()
+#7 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#8 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(904): PHPUnit\Framework\TestResult->run(Object(EmailTest))
+#9 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\Command.php(144): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#14 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\Command.php(97): PHPUnit\TextUI\Command->run(Array, true)
+#15 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\phpunit(98): PHPUnit\TextUI\Command::main()
+#16 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\bin\phpunit(123): include('C:\\Users\\user\\D...')
+#17 {main}
+ERROR - 2022-10-16 05:16:50 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2022-10-16 05:16:50 --> 
+ERROR - 2022-10-16 05:17:08 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at "localhost" port 25, verify your "SMTP" and "smtp_port" setting in php.ini or use ini_set() in C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php:1730
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\Users\\user\\D...', 1730)
+#1 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1730): mail('12210843@bsi.ac...', '=?UTF-8?Q?Testi...', 'This is a multi...', 'Date: Sun, 16 O...', '-f marsianusyhz...')
+#2 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1662): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\codeigniter4\framework\system\Email\Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\tests\unit\EmailTest.php(19): CodeIgniter\Email\Email->send()
+#5 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(1548): EmailTest->testKirimEmail()
+#6 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(1154): PHPUnit\Framework\TestCase->runTest()
+#7 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#8 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestCase.php(904): PHPUnit\Framework\TestResult->run(Object(EmailTest))
+#9 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#10 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\Framework\TestSuite.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(673): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\Command.php(144): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#14 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\src\TextUI\Command.php(97): PHPUnit\TextUI\Command->run(Array, true)
+#15 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\phpunit\phpunit\phpunit(98): PHPUnit\TextUI\Command::main()
+#16 C:\Users\user\Documents\sisteminformasibengkel\sisteminformasibengkel\vendor\bin\phpunit(123): include('C:\\Users\\user\\D...')
+#17 {main}
+ERROR - 2022-10-16 05:17:08 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2022-10-16 05:17:08 --> 
